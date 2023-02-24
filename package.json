@@ -1,0 +1,32 @@
+{
+  "name": "my-work-theme",
+  "displayName": "My Work Theme",
+  "description": "Theme to work peacefully",
+  "version": "0.0.1",
+  "publisher": "David-U",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/David-UM/MyWorkTheme"
+  },
+  "keywords": [
+    "David",
+    "David U",
+    "Peace",
+    "ThisIsMyOwnVSCTheme"
+  ],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Work Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/My Work Theme-color-theme.json"
+      }
+    ]
+  }
+}
